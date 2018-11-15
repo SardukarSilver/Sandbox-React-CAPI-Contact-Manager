@@ -1,15 +1,20 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 const Context = React.createContext();
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case "DELETE_CONTACT":
+    case 'DELETE_CONTACT':
       return {
         ...state,
         contacts: state.contacts.filter(
           contact => contact.id !== action.payload
         )
+      };
+    case 'ADD_CONTACT':
+      return {
+        ...state,
+        contacts: [action.payload, ...state.contacts]
       };
     default:
       return state;
@@ -21,21 +26,21 @@ export class Provider extends Component {
     contacts: [
       {
         id: 1,
-        name: "Jhon Doe",
-        email: "jd@com.com",
-        phone: "111-111-1111"
+        name: 'Jhon Doe',
+        email: 'jd@com.com',
+        phone: '111-111-1111'
       },
       {
         id: 2,
-        name: "Rick Martinez",
-        email: "rm@com.com",
-        phone: "222-222-2222"
+        name: 'Rick Martinez',
+        email: 'rm@com.com',
+        phone: '222-222-2222'
       },
       {
         id: 3,
-        name: "Morti Sanchez",
-        email: "ms@com.com",
-        phone: "333-333-3333"
+        name: 'Morti Sanchez',
+        email: 'ms@com.com',
+        phone: '333-333-3333'
       }
     ],
     dispatch: action => this.setState(state => reducer(state, action))
