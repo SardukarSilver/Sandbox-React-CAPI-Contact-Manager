@@ -1,17 +1,21 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Consumer } from '../../context';
-import axios from 'axios';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import { Consumer } from "../../context";
+import axios from "axios";
 
 class Contact extends Component {
   state = {
     showContactInfo: false
   };
 
-  onDeleteClick = (id, dispatch) => {
-    axios
-      .delete(`https://jsonplaceholder.typicode.com/users/${id}`)
-      .then(res => dispatch({ type: 'DELETE_CONTACT', payload: id }));
+  onDeleteClick = async (id, dispatch) => {
+    try {
+      await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
+      dispatch({ type: "DELETE_CONTACT", payload: id });
+    } catch (e) {
+      dispatch({ type: "DELETE_CONTACT", payload: id });
+    }
   };
 
   render() {
@@ -25,7 +29,7 @@ class Contact extends Component {
           return (
             <div className="card card-body mb-3">
               <h4>
-                {name}{' '}
+                {name}{" "}
                 <i
                   onClick={() => {
                     this.setState({
@@ -33,17 +37,28 @@ class Contact extends Component {
                     });
                   }}
                   className="fas fa-sort-down"
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: "pointer" }}
                 />
                 <i
                   className="fas fa-times"
                   style={{
-                    cursor: 'pointer',
-                    float: 'right',
-                    color: 'red'
+                    cursor: "pointer",
+                    float: "right",
+                    color: "red"
                   }}
                   onClick={this.onDeleteClick.bind(this, id, dispatch)}
                 />
+                <Link to={`contact/edit/${id}`}>
+                  <i
+                    className="fas fa-pencil-alt"
+                    style={{
+                      coursor: "pointer",
+                      float: "right",
+                      color: "black",
+                      marginRight: "1rem"
+                    }}
+                  />
+                </Link>
               </h4>
               {showContactInfo ? (
                 <ul className="list-group">
