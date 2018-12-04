@@ -2,7 +2,7 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SardukarSilver.github.io/Sandbox-React-Contact-Manager",
+  "homepage": "https://SardukarSilver.github.io/Sandbox-React-CAPI-Contact-Manager",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
