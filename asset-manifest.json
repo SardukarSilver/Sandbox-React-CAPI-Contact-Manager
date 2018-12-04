@@ -1,15 +1,15 @@
 {
-  "main.css": "/Sandbox-React-Contact-Manager/static/css/main.5bf5a46e.chunk.css",
-  "main.js": "/Sandbox-React-Contact-Manager/static/js/main.bb26dfe0.chunk.js",
-  "main.js.map": "/Sandbox-React-Contact-Manager/static/js/main.bb26dfe0.chunk.js.map",
-  "static/css/1.b3eb0403.chunk.css": "/Sandbox-React-Contact-Manager/static/css/1.b3eb0403.chunk.css",
-  "static/js/1.eefaff74.chunk.js": "/Sandbox-React-Contact-Manager/static/js/1.eefaff74.chunk.js",
-  "static/js/1.eefaff74.chunk.js.map": "/Sandbox-React-Contact-Manager/static/js/1.eefaff74.chunk.js.map",
-  "runtime~main.js": "/Sandbox-React-Contact-Manager/static/js/runtime~main.e88c41b1.js",
-  "runtime~main.js.map": "/Sandbox-React-Contact-Manager/static/js/runtime~main.e88c41b1.js.map",
-  "static/css/main.5bf5a46e.chunk.css.map": "/Sandbox-React-Contact-Manager/static/css/main.5bf5a46e.chunk.css.map",
-  "static/css/1.b3eb0403.chunk.css.map": "/Sandbox-React-Contact-Manager/static/css/1.b3eb0403.chunk.css.map",
-  "index.html": "/Sandbox-React-Contact-Manager/index.html",
-  "precache-manifest.a109b4c76e068f1c96df02e4b26ab474.js": "/Sandbox-React-Contact-Manager/precache-manifest.a109b4c76e068f1c96df02e4b26ab474.js",
-  "service-worker.js": "/Sandbox-React-Contact-Manager/service-worker.js"
+  "main.css": "/Sandbox-React-CAPI-Contact-Manager/static/css/main.5bf5a46e.chunk.css",
+  "main.js": "/Sandbox-React-CAPI-Contact-Manager/static/js/main.53114a3e.chunk.js",
+  "main.js.map": "/Sandbox-React-CAPI-Contact-Manager/static/js/main.53114a3e.chunk.js.map",
+  "static/css/1.b3eb0403.chunk.css": "/Sandbox-React-CAPI-Contact-Manager/static/css/1.b3eb0403.chunk.css",
+  "static/js/1.eefaff74.chunk.js": "/Sandbox-React-CAPI-Contact-Manager/static/js/1.eefaff74.chunk.js",
+  "static/js/1.eefaff74.chunk.js.map": "/Sandbox-React-CAPI-Contact-Manager/static/js/1.eefaff74.chunk.js.map",
+  "runtime~main.js": "/Sandbox-React-CAPI-Contact-Manager/static/js/runtime~main.22d1fc29.js",
+  "runtime~main.js.map": "/Sandbox-React-CAPI-Contact-Manager/static/js/runtime~main.22d1fc29.js.map",
+  "static/css/1.b3eb0403.chunk.css.map": "/Sandbox-React-CAPI-Contact-Manager/static/css/1.b3eb0403.chunk.css.map",
+  "static/css/main.5bf5a46e.chunk.css.map": "/Sandbox-React-CAPI-Contact-Manager/static/css/main.5bf5a46e.chunk.css.map",
+  "index.html": "/Sandbox-React-CAPI-Contact-Manager/index.html",
+  "precache-manifest.ffe0ac8b789b452d2599ce63302afb22.js": "/Sandbox-React-CAPI-Contact-Manager/precache-manifest.ffe0ac8b789b452d2599ce63302afb22.js",
+  "service-worker.js": "/Sandbox-React-CAPI-Contact-Manager/service-worker.js"
 }

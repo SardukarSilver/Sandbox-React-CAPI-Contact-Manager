@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Sandbox-React-Contact-Manager/precache-manifest.a109b4c76e068f1c96df02e4b26ab474.js"
+  "/Sandbox-React-CAPI-Contact-Manager/precache-manifest.ffe0ac8b789b452d2599ce63302afb22.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Sandbox-React-Contact-Manager/index.html", {
+workbox.routing.registerNavigationRoute("/Sandbox-React-CAPI-Contact-Manager/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
